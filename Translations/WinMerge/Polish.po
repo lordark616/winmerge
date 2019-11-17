@@ -2071,7 +2071,7 @@ msgid "All paths are invalid!"
 msgstr "Wszystkie ścieżki są nieprawidłowe!"
 
 msgid "Only enabled for File comparisons"
-msgstr ""
+msgstr "Włączone tylko dla porównań plików"
 
 msgid "Cannot compare file and folder!"
 msgstr "Nie można porównać pliku i folderu!"
@@ -2135,7 +2135,7 @@ msgstr "%1\nzostał oznaczony jako tylko do odczytu. Czy chcesz zastąpić eleme
 
 #, c-format
 msgid "Another application has updated file\n%1\nsince WinMerge scanned it last time.\n\nDo you want to reload the file?"
-msgstr ""
+msgstr "Inna aplikacja zmodyfikowała plik\n%1\nod ostatniego otworzenia w WinMerge.\n\nCzy przeładować plik?"
 
 msgid "Save Left File As"
 msgstr "Zapisz lewy plik jako"
@@ -2151,7 +2151,7 @@ msgid "The file\n%1\nhas disappeared. Please save a copy of the file to continue
 msgstr "Plik\n%1\nzostał usunięty. Proszę zapisać kopię pliku, aby móc kontynuować."
 
 msgid "Cannot merge differences when documents are not in synch.\n\nRefresh documents before continuing."
-msgstr ""
+msgstr "Nie można połączyć różnic, jeśli dokumenty nie są zsynchronizowane.\n\nPrzed kontynuacją odśwież dokumenty."
 
 msgid "Break at whitespace"
 msgstr "Zatrzymaj na białym znaku"
@@ -2257,7 +2257,7 @@ msgstr "Czy na pewno chcesz skopiować %d elementów:"
 
 #, c-format
 msgid "Operation aborted!\n\nFolder contents at disks has changed, path\n%1\nwas not found.\n\nPlease refresh the compare."
-msgstr ""
+msgstr "Operacja anulowana!\n\nZawartość folderu na dysku została zmieniona. Ścieżka\n%1\nnie została odnaleziona.\n\nProszę odświeżyć porównanie."
 
 msgid "Are you sure you want to move:"
 msgstr "Czy na pewno chcesz przenieść:"
@@ -2270,7 +2270,7 @@ msgid "Confirm Move"
 msgstr "Potwierdzenie przenoszenia"
 
 msgid "You are about to close the window that is comparing folders. Are you sure you want to close the window?"
-msgstr ""
+msgstr "Za chwilę zamkniesz okno porównujące foldery. Czy na pewno chcesz zamknąć okno"
 
 #, c-format
 msgid "Failed to execute external editor: %1"
@@ -2599,10 +2599,10 @@ msgid "An error occurred while comparing the files."
 msgstr "Wystąpił błąd podczas porównywania plików."
 
 msgid "Temporary files could not be created. Check your temporary path settings."
-msgstr ""
+msgstr "Nie można utworzyć plików tymczasowych. Sprawdź ustawienie ścieżki tymczasowej."
 
-msgid "These files use different carriage return types.\n\nDo you want to treat all carriage return types as equivalent for this comparison?\n\nNote: If you always want to treat all carriage return types as equivalent, set the option 'Ignore carriage return differences..' in the Compare tab of the options dialog (available under Edit/Options)."
-msgstr ""
+msgid "The folder exists only in other side and cannot be opened.\n\nDo you want to create a matching folder:\n%1\nto the other side and open these folders?"
+msgstr "Folder istnieje tylko na jednej ze stron i nie może by otworzony.\n\nCzy utworzy odpowiedni folder:\n%1\nna drugiej stronie i otworzyć te foldery?"
 
 msgid "The selected folder is invalid."
 msgstr "Wybrany folder jest nieprawidłowy."
@@ -2612,7 +2612,7 @@ msgstr "Nie można otworzyć w edytorze pliku binarnego."
 
 #, c-format
 msgid "The folder exists only in other side and cannot be opened.\n\nDo you want to create a matching folder:\n%1\nto the other side and open these folders?"
-msgstr ""
+msgstr "Folder istnieje tylko na jednej ze stron i nie może by otworzony.\n\nCzy utworzy odpowiedni folder:\n%1\nna drugiej stronie i otworzyć te foldery?"
 
 msgid "Do you want to move to the next file?"
 msgstr "Czy chcesz przejść do następnego pliku?"
@@ -2628,7 +2628,7 @@ msgstr "Czy chcesz przejść do poprzedniej strony?"
 
 #, c-format
 msgid "Different codepages found in left (cp%d) and right (cp%d) files.\nDisplaying each file in its codepage will give a better display but merging/copying will be dangerous.\nWould you like to treat both files as being in the default Windows codepage (recommended)?"
-msgstr ""
+msgstr "Różne strony kodowe w plikach po lewej (cp%d) i po prawej (cp%d). \nWyświetlanie każdego pliku w odpowiedniej stronie kodowej da lepsze wyniki, ale scalenie/skopiowanie będzie niebezpieczne.\nWould you like to treat both files as being in the default Windows codepage (recommended)?"
 
 msgid "Information lost due to encoding errors: both files"
 msgstr "Utracono informacje z powodu błędów kodowania: oba pliki"
@@ -2657,23 +2657,23 @@ msgid "Cannot find string \"%s\""
 msgstr "Nie można znaleźć sekwencji znaków \"%s\""
 
 msgid "You are now entering Merge Mode. If you want to turn off Merge Mode, press F9 key"
-msgstr ""
+msgstr "Wchodzisz teraz w tryb scalania. Jeśli chcesz wyłączyć tryb scalania, naciśnij klawisz F9"
 
 #, c-format
 msgid "The number of automatically merged changes: %1\nThe number of unresolved conflicts: %2"
-msgstr ""
+msgstr "Liczba automatycznie scalonych zmian: %1\nLiczba nierozwiązanych konfliktów: %2"
 
 msgid "The change of codepage has been merged"
-msgstr ""
+msgstr "Zmiana strony kodowej została scalona"
 
 msgid "The changes of codepage are conflicting"
-msgstr ""
+msgstr "Zmiany strony kodowej są sprzeczne"
 
 msgid "The change of EOL has been merged"
-msgstr ""
+msgstr "Zmiana EOL została połączona"
 
 msgid "The changes of EOL are conflicting"
-msgstr ""
+msgstr "Zmiany EOL są sprzeczne"
 
 msgid "Location Pane"
 msgstr "Panel lokalizacji"
@@ -2724,13 +2724,13 @@ msgid "Cannot create a patch file from directories."
 msgstr "Nie można utworzyć łatki z katalogów."
 
 msgid "Please save all files first.\n\nCreating a patch requires that there are no unsaved changes in files."
-msgstr ""
+msgstr "Proszę najpierw zapisać wszystkie prace.\n\nTworzenie patcha wymaga zapisania wszystkich zmian w plikach."
 
 msgid "Folder does not exist."
-msgstr ""
+msgstr "Folder nie istnieje."
 
 msgid "Archive support is not enabled.\nAll needed components (7-zip and/or Merge7z*.dll) for archive support cannot be found.\nSee manual for more info about archive support and how to enable it."
-msgstr ""
+msgstr "Nie włączono obsługi archiwów.\nNie znaleziono komponentów (7-zip i/lub Merge7z*.dll) wymaganych do obsługi archiwów.\nInformacje o obsłudze archiwów zawiera podręcznik."
 
 msgid "Select file for export"
 msgstr "Wybierz plik do eksportu"
@@ -2921,4 +2921,4 @@ msgid "Failed to create folder."
 msgstr "Nie udało się utworzyć folderu."
 
 msgid "You can specify the following parameters to the path:\n$file: Path name of the current file\n$linenum: Line number of the current cursor position"
-msgstr ""
+msgstr "Możesz podać następujące parametry ścieżki:\n$file: nazwa ścieżki bieżącego pliku\n$linenum: numer linii aktualnej pozycji kursora"
